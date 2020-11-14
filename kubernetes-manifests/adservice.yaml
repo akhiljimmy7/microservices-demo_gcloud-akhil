@@ -43,10 +43,10 @@ spec:
         #  value: "jaeger-collector:14268"
         resources:
           requests:
-            cpu: 50m
+            cpu: 10m
             memory: 180Mi
           limits:
-            cpu: 80m
+            cpu: 50m
             memory: 300Mi
         readinessProbe:
           initialDelaySeconds: 20
